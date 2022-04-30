@@ -1,0 +1,57 @@
+ @import url("https://use.typekit.net/iem4fht.css");
+
+body {
+  font-family: letter-gothic-std, monospace;
+ font-weight: 400;
+ font-style: normal;
+  background-color: black;
+  color: darkred;
+  font-size: 30px;
+  margin:50px;
+  color: yellowgreen;
+  transition: color 2s, transform 2s
+}
+
+.color-change {
+  color: ghostwhite;
+  transition-property: font-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+}
+
+@media all and (max-width:  500px) {
+    body { 
+    fontsize: 100px;
+     }
+}
+
+@media screen and (min-width:  600px) {
+  body { 
+  font-size: 75;
+  line-height: 1.2em }
+}
+
+
+main {
+  font-size: 20px;
+  margin: 25px 0;
+  padding: 30px;
+
+}
+
+@media all and (max-width:  500px) {
+    main { 
+    fontsize: 30px;
+     }
+}
+
+
+.center {
+  margin: 0 auto;
+  width: 200px;
+  background: black;
+  padding: px;
+
+  
+
